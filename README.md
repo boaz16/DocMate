@@ -21,5 +21,14 @@ python -m venv venv
 venv\Scripts\activate
 #Install the dependencies
 pip install -r requirements.txt
+#Download the model
+ollama pull mistral
 #To run the application
 streamlit run app.py
+
+```bash
+#Download and install Ollama from
+https://ollama.com/
+#Model used
+https://ollama.com/library/mistral
+
