@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ollama pull mistral
 #To run the application
 streamlit run app.py
+```
 
 ```bash
 #Download and install Ollama from
