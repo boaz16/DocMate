@@ -12,8 +12,14 @@ With DocMate, you can chat with any PDF locally! DocMate is RAG with local model
 
 ## Installation
 
-1. **Clone the repository**: git clone https://github.com/boaz16/DocMate.git
-2. Create the virtual environment: python -m venv venv
-3. Activate the virtual environment: venv\Scripts\activate
-4. Install the dependencies: pip install -r requirements.txt
-5. To run the application: streamlit run app.py
+```bash
+#Clone the repository
+git clone https://github.com/boaz16/DocMate.git
+#Create the virtual environment
+python -m venv venv
+#Activate the virtual environment
+venv\Scripts\activate
+#Install the dependencies
+pip install -r requirements.txt
+#To run the application
+streamlit run app.py
